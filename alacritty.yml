@@ -16,4 +16,4 @@ visual_bell:
 
 
 import:
-   - ~/.config/alacritty/themes/themes/github_dark_default.yaml
+   - ~/.config/alacritty/themes/themes/github_dark.yaml
