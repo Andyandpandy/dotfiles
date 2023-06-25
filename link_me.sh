@@ -16,7 +16,14 @@ if [ -f "$VIMRC"  ]; then
 			rm $HOME/.vimrc
 fi
 
+ALACRITTY=$HOME/.config/alacritty/alacritty.yml
+if [ -f "$ALACRITTY"  ]; then
+	    echo "$ALACRITTY exists."
+	    echo "Removing ${ALACRITTY}"
+			rm $ALACRITTY
+fi
+
 
 ln -s $(pwd)/.tmux.conf $HOME
 ln -s $(pwd)/.vimrc $HOME
-
+mkdir -p $HOME/.config/alacritty && cp $(pwd)/alacritty.yml $ALACRITTY

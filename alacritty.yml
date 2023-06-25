@@ -1,0 +1,19 @@
+
+
+
+window:
+  startup_mode: Fullscreen
+
+scrolling:
+  history: 100000
+
+
+tabspaces: 4
+
+
+visual_bell:
+  duration: 0
+
+
+import:
+   - ~/.config/alacritty/themes/themes/github_dark_default.yaml
