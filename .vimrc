@@ -90,7 +90,7 @@ Plug 'sainnhe/gruvbox-material'
 
 " Autocompletion
 Plug 'neoclide/coc.nvim'
-Plug 'SirVer/ultisnips'
+"Plug 'SirVer/ultisnips'
 
 "Plug 'ycm-core/YouCompleteMe'
 
